@@ -2,18 +2,19 @@
 # OR: "O sino..."
 # NOT -> negación
 
-distancia = 400
-numeroHermanos = 3
-salarioPadres = 3000
+def opcion25():
+    distancia = 400
+    numeroHermanos = 3
+    salarioPadres = 3000
 
-tieneBeneficio = False
+    tieneBeneficio = False
 
-if (distancia > 1000 and numeroHermanos > 2) or salarioPadres < 2000:
-    tieneBeneficio = True
+    if (distancia > 1000 and numeroHermanos > 2) or salarioPadres < 2000:
+        tieneBeneficio = True
 
-print(not tieneBeneficio)
+    print(not tieneBeneficio)
 
-if (5 > 3) or (8 < 6):
-    print("Verdad")
-else:
-    print("Es mentira...")
+    if (5 > 3) or (8 < 6):
+        print("Verdad")
+    else:
+        print("Es mentira...")

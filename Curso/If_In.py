@@ -1,9 +1,10 @@
-print("-- Cursos --")
-print("Matematica - Biologia - Lenguaje - Ciencias")
+def opcion21():
+    print("-- Cursos --")
+    print("Matematica - Biologia - Lenguaje - Ciencias")
 
-curso = input("Ingrese el curso deseado: ")
+    curso = input("Ingrese el curso deseado: ")
 
-if curso in ("Matematica", "Biologia", "Lenguaje", "Ciencias"):
-    print("Curso {0} seleccionado.".format(curso))
-else:
-    print("No existe ese curso...")
+    if curso in ("Matematica", "Biologia", "Lenguaje", "Ciencias"):
+        print("Curso {0} seleccionado.".format(curso))
+    else:
+        print("No existe ese curso...")

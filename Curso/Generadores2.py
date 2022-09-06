@@ -8,11 +8,12 @@ def devuelveLenguajes(*lenguajes):
         yield leng
 """
 
-def devuelveLenguajes(*lenguajes):
-    for leng in lenguajes:
-        yield from leng
+def opcion18():
+    def devuelveLenguajes(*lenguajes):
+        for leng in lenguajes:
+            yield from leng
 
-lenguajesObtenidos = devuelveLenguajes("Python","Java","PHP","Ruby","JavaScrip")
+    lenguajesObtenidos = devuelveLenguajes("Python","Java","PHP","Ruby","JavaScrip")
 
-print(next(lenguajesObtenidos))
-print(next(lenguajesObtenidos))
+    print(next(lenguajesObtenidos))
+    print(next(lenguajesObtenidos))

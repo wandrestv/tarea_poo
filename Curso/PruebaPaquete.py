@@ -12,5 +12,6 @@ que contiene otros módulos, y esto lo hace para poder importarlos.
 from Paquete1.funcionesCadena import contar_letras
 from Paquete1.funcionesNumericas import *
 
-print(multiplicar(5, 6))
-print(contar_letras("Andres"))
+def opcion27():
+    print(multiplicar(5, 6))
+    print(contar_letras("Andres"))

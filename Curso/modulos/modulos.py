@@ -11,5 +11,6 @@ Modularización y reutilización.
 
 from Curso.modulos.funcionesMatematicas import *
 
-print(sumar(5, 6))
-print(multiplicar(5, 6))
+def opcion33():
+    print(sumar(5, 6))
+    print(multiplicar(5, 6))
